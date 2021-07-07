@@ -53,5 +53,24 @@
 		"image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvb2tpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
 		"body": "Organic salad",
 		"tag": ["egg", "salad", "bread crums", "avocado"]
-	}
+	},
+	{
+		"userId": 23432,
+		"title": "New Data",
+		"id": 6,
+		"tag": [],
+		"image": "",
+		"true": true,
+		"false": false,
+		"null": null,
+		"arrayOfStrings": ["a", "b", "c", "d"],
+		"arrayOfNumbers": [1, 2, 3, 4, 5],
+		"arrayOfBooleans": [true, false, true, false],
+		"arrayOfObjects": [{ "a": 1 }, { "a": 2}],
+		"object": {
+		  "anyKey": "anyValue",
+		  "Version" : "5.0",
+          "IsReady" : "false"
+		}
+	  }
 ]

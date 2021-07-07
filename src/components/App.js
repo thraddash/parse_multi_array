@@ -26,7 +26,7 @@ export default class DefaultPost extends Component {
                                                 {postData.title}
                                             </Card.Title>
                                             <Card.Subtitle className={style.tag}>
-                                                {postData.tag + " "}
+                                                {postData.tag.join(" ")}
                                             </Card.Subtitle>
 
                                             <Card.Text className={style.para}>
